@@ -1,6 +1,6 @@
 import slack
 import json
-slack_token = 'xoxb-2454422475301-2465620147476-mPadvLWSWPeo0tZe32mpuoJ2'
+slack_token = 'your_bot_token'
 
 with open('example.json', 'r') as json_file:
     parsed_json = json.load(json_file)
